@@ -64,7 +64,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: s;
   padding-left: 10%;
   padding-right: 10%;
   margin-top: 3%;
@@ -81,6 +81,7 @@ main {
 .hero-image-text {
   display: flex;
   flex-direction: column;
+  width: 90%;
 }
 
 .hero-image {
@@ -125,6 +126,7 @@ main {
   color: black;
   background-color: tomato;
   padding: 10px 20px;
+  font-weight: 800;
 }
 
 /* More news sections */
@@ -199,6 +201,6 @@ main {
 
 #trending-news-item-desc p {
   color: grey;
-  padding-top: 2%;
+  padding-top: 5%;
   font-size: 110%;
 }

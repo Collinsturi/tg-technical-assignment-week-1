@@ -3,3 +3,39 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  margin-right: 20px;
+}
+
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+  width: 5%;
+  height: 5%;
+}
+
+.nav-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 10%;
+  gap: 20px;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 15px;
+}

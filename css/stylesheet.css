@@ -196,3 +196,9 @@ main {
 #trending-news-item-desc h1 {
   color: tomato;
 }
+
+#trending-news-item-desc p {
+  color: grey;
+  padding-top: 2%;
+  font-size: 110%;
+}

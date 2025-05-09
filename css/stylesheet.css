@@ -32,11 +32,16 @@ nav {
   flex-direction: row;
   width: 5%;
   height: 5%;
+  margin-left: 12%;
 }
 
 .nav-logo img {
   width: 100%;
   height: 100%;
+}
+
+.nav-menu {
+  padding-right: 10%;
 }
 
 .nav-menu ul {
@@ -69,6 +74,8 @@ main {
 .intro-section {
   display: flex;
   flex-direction: row;
+  width: 90%;
+  gap: 10px;
 }
 
 .hero-image-text {
@@ -88,7 +95,7 @@ main {
 }
 
 .hero-title h1 {
-  font-size: 200%;
+  font-size: 300%;
 }
 
 .hero-title-description {
@@ -96,11 +103,17 @@ main {
   flex-direction: row;
   align-items: start;
   justify-content: start;
+  padding-top: 3%;
 }
 
 .hero-description {
   font-size: 80%;
+  height: 100%;
   color: grey;
+}
+
+.hero-description p {
+  font-size: large;
 }
 .hero-btn {
   margin-top: 20px;
@@ -110,7 +123,7 @@ main {
 .hero-btn a {
   text-decoration: none;
   color: black;
-  background-color: red;
+  background-color: tomato;
   padding: 10px 20px;
 }
 
@@ -137,11 +150,13 @@ main {
 .news-item h3 {
   color: white;
   font-size: 13px;
+  padding-top: 2%;
 }
 
 .news-item p {
   color: white;
   font-size: 10px;
+  padding-top: 2%;
 }
 
 .trending-news {
@@ -175,4 +190,9 @@ main {
 #trending-news-item-desc {
   display: flex;
   flex-direction: column;
+  padding-left: 2%;
+}
+
+#trending-news-item-desc h1 {
+  color: tomato;
 }

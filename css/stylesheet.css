@@ -4,12 +4,25 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
   background-color: white;
   margin-right: 20px;
 }
@@ -38,4 +51,84 @@ nav {
   text-decoration: none;
   color: grey;
   font-size: 15px;
+}
+
+/* Main Content */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+.hero-image-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-title-description {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+}
+
+.hero-btn {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.hero-btn a {
+  text-decoration: none;
+  color: black;
+  background-color: red;
+  padding: 10px 20px;
+}
+
+/* More news sections */
+
+.more-news {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  background-color: #131316;
+}
+
+.more-news-title {
+  color: goldenrod;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.news-item h3 {
+  color: white;
+  font-size: 13px;
+}
+
+.news-item p {
+  color: white;
+  font-size: 10px;
 }
